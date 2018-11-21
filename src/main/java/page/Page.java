@@ -7,14 +7,13 @@ package page;
  * 描述：保存获取到的响应相关内容              
  */
 
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.CharsetDecoder;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import com.ibm.icu.text.CharsetDetector;
-import com.ibm.icu.text.CharsetMatch;
+import util.CharsetDetector;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 
 public class Page
 {
@@ -44,13 +43,7 @@ public class Page
             return null;
         }
         if(charset==null) {
-            CharsetDetector charsetDetector=new CharsetDetector();
-            //传入字节数组
-            charsetDetector.setText(content);
-            //获取最有可能的编码格式
-            CharsetMatch match=charsetDetector.detect();
-            int confidence =match.getConfidence();
-            charset=match.getName();
+            charset = CharsetDetector.guessEncoding(content); // 根据内容来猜测 字符编码
         }
         try
         {
@@ -126,10 +119,13 @@ public class Page
     {
         this.contentType = contentType;
     }
-    
-    
-    
-    
+
+    @Override
+    public String toString()
+    {
+        return "Page [content=" + Arrays.toString(content) + ", html=" + html + ", doc=" + doc + ", charset=" + charset
+                + ", url=" + url + ", contentType=" + contentType + "]";
+    }
     
 }
   

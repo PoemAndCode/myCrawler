@@ -19,7 +19,7 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
  */
 public class RequestAndResponseTool
 {
-    public static Page sendRequestAndResponse(String url)
+    public static Page sendRequstAndGetResponse(String url)
     {
         Page page=null;
         //生成HttpClient对象

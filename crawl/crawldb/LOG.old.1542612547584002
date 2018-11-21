@@ -1,0 +1,190 @@
+2018/11/19-15:28:54.399001 360c RocksDB version: 5.14.2
+2018/11/19-15:28:54.399141 360c Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2018/11/19-15:28:54.399204 360c Compile date Jul  6 2018
+2018/11/19-15:28:54.399246 360c DB SUMMARY
+2018/11/19-15:28:54.399486 360c CURRENT file:  CURRENT
+2018/11/19-15:28:54.399537 360c IDENTITY file:  IDENTITY
+2018/11/19-15:28:54.399604 360c MANIFEST file:  MANIFEST-000011 size: 137 Bytes
+2018/11/19-15:28:54.399652 360c SST files in F:\Users\Lenovo\git\myCrawler\crawl\crawldb dir, Total Num: 1, files: 000004.sst 
+2018/11/19-15:28:54.399692 360c Write Ahead Log file in F:\Users\Lenovo\git\myCrawler\crawl\crawldb: 000012.log size: 983 ; 
+2018/11/19-15:28:54.399733 360c                         Options.error_if_exists: 0
+2018/11/19-15:28:54.400188 360c                       Options.create_if_missing: 1
+2018/11/19-15:28:54.400245 360c                         Options.paranoid_checks: 1
+2018/11/19-15:28:54.400278 360c                                     Options.env: 0000000000C63D00
+2018/11/19-15:28:54.400308 360c                                Options.info_log: 000000001A6B4C10
+2018/11/19-15:28:54.400337 360c                Options.max_file_opening_threads: 16
+2018/11/19-15:28:54.400364 360c                              Options.statistics: 0000000000000000
+2018/11/19-15:28:54.400390 360c                               Options.use_fsync: 0
+2018/11/19-15:28:54.400416 360c                       Options.max_log_file_size: 0
+2018/11/19-15:28:54.400442 360c                  Options.max_manifest_file_size: 18446744073709551615
+2018/11/19-15:28:54.400469 360c                   Options.log_file_time_to_roll: 0
+2018/11/19-15:28:54.400495 360c                       Options.keep_log_file_num: 1000
+2018/11/19-15:28:54.400521 360c                    Options.recycle_log_file_num: 0
+2018/11/19-15:28:54.400548 360c                         Options.allow_fallocate: 1
+2018/11/19-15:28:54.400575 360c                        Options.allow_mmap_reads: 0
+2018/11/19-15:28:54.400601 360c                       Options.allow_mmap_writes: 0
+2018/11/19-15:28:54.400627 360c                        Options.use_direct_reads: 0
+2018/11/19-15:28:54.400652 360c                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/11/19-15:28:54.400679 360c          Options.create_missing_column_families: 0
+2018/11/19-15:28:54.400705 360c                              Options.db_log_dir: 
+2018/11/19-15:28:54.400730 360c                                 Options.wal_dir: F:\Users\Lenovo\git\myCrawler\crawl\crawldb
+2018/11/19-15:28:54.400755 360c                Options.table_cache_numshardbits: 6
+2018/11/19-15:28:54.400781 360c                      Options.max_subcompactions: 1
+2018/11/19-15:28:54.400807 360c                  Options.max_background_flushes: -1
+2018/11/19-15:28:54.400834 360c                         Options.WAL_ttl_seconds: 0
+2018/11/19-15:28:54.400862 360c                       Options.WAL_size_limit_MB: 0
+2018/11/19-15:28:54.400886 360c             Options.manifest_preallocation_size: 4194304
+2018/11/19-15:28:54.400909 360c                     Options.is_fd_close_on_exec: 1
+2018/11/19-15:28:54.400934 360c                   Options.advise_random_on_open: 1
+2018/11/19-15:28:54.400960 360c                    Options.db_write_buffer_size: 0
+2018/11/19-15:28:54.400987 360c                    Options.write_buffer_manager: 000000001A33D0A0
+2018/11/19-15:28:54.401015 360c         Options.access_hint_on_compaction_start: 1
+2018/11/19-15:28:54.401042 360c  Options.new_table_reader_for_compaction_inputs: 0
+2018/11/19-15:28:54.401071 360c           Options.random_access_max_buffer_size: 1048576
+2018/11/19-15:28:54.401098 360c                      Options.use_adaptive_mutex: 0
+2018/11/19-15:28:54.401125 360c                            Options.rate_limiter: 0000000000000000
+2018/11/19-15:28:54.401154 360c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/11/19-15:28:54.401182 360c                       Options.wal_recovery_mode: 2
+2018/11/19-15:28:54.401209 360c                  Options.enable_thread_tracking: 0
+2018/11/19-15:28:54.401328 360c                  Options.enable_pipelined_write: 0
+2018/11/19-15:28:54.401366 360c         Options.allow_concurrent_memtable_write: 1
+2018/11/19-15:28:54.401391 360c      Options.enable_write_thread_adaptive_yield: 1
+2018/11/19-15:28:54.401418 360c             Options.write_thread_max_yield_usec: 100
+2018/11/19-15:28:54.401445 360c            Options.write_thread_slow_yield_usec: 3
+2018/11/19-15:28:54.401473 360c                               Options.row_cache: None
+2018/11/19-15:28:54.401500 360c                              Options.wal_filter: None
+2018/11/19-15:28:54.401528 360c             Options.avoid_flush_during_recovery: 0
+2018/11/19-15:28:54.401554 360c             Options.allow_ingest_behind: 0
+2018/11/19-15:28:54.401579 360c             Options.preserve_deletes: 0
+2018/11/19-15:28:54.401605 360c             Options.two_write_queues: 0
+2018/11/19-15:28:54.401631 360c             Options.manual_wal_flush: 0
+2018/11/19-15:28:54.401657 360c             Options.max_background_jobs: 2
+2018/11/19-15:28:54.401679 360c             Options.max_background_compactions: -1
+2018/11/19-15:28:54.401705 360c             Options.avoid_flush_during_shutdown: 0
+2018/11/19-15:28:54.401733 360c           Options.writable_file_max_buffer_size: 1048576
+2018/11/19-15:28:54.401761 360c             Options.delayed_write_rate : 16777216
+2018/11/19-15:28:54.401788 360c             Options.max_total_wal_size: 0
+2018/11/19-15:28:54.401810 360c             Options.delete_obsolete_files_period_micros: 21600000000
+2018/11/19-15:28:54.401836 360c                   Options.stats_dump_period_sec: 600
+2018/11/19-15:28:54.401863 360c                          Options.max_open_files: -1
+2018/11/19-15:28:54.401890 360c                          Options.bytes_per_sync: 0
+2018/11/19-15:28:54.401914 360c                      Options.wal_bytes_per_sync: 0
+2018/11/19-15:28:54.401936 360c       Options.compaction_readahead_size: 0
+2018/11/19-15:28:54.401960 360c Compression algorithms supported:
+2018/11/19-15:28:54.401986 360c 	kZSTD supported: 0
+2018/11/19-15:28:54.402014 360c 	kSnappyCompression supported: 0
+2018/11/19-15:28:54.402041 360c 	kBZip2Compression supported: 0
+2018/11/19-15:28:54.402070 360c 	kZlibCompression supported: 0
+2018/11/19-15:28:54.402096 360c 	kLZ4Compression supported: 0
+2018/11/19-15:28:54.402121 360c 	kXpressCompression supported: 0
+2018/11/19-15:28:54.402146 360c 	kLZ4HCCompression supported: 0
+2018/11/19-15:28:54.402168 360c 	kZSTDNotFinalCompression supported: 0
+2018/11/19-15:28:54.402196 360c Fast CRC32 supported: Supported on x86
+2018/11/19-15:28:54.403309 360c [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000011
+2018/11/19-15:28:54.403508 360c [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2018/11/19-15:28:54.403557 360c               Options.comparator: leveldb.BytewiseComparator
+2018/11/19-15:28:54.403587 360c           Options.merge_operator: None
+2018/11/19-15:28:54.403615 360c        Options.compaction_filter: None
+2018/11/19-15:28:54.403641 360c        Options.compaction_filter_factory: None
+2018/11/19-15:28:54.403667 360c         Options.memtable_factory: SkipListFactory
+2018/11/19-15:28:54.403691 360c            Options.table_factory: BlockBasedTable
+2018/11/19-15:28:54.404085 360c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000001A33CB90)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000000001A35A8E0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2018/11/19-15:28:54.404234 360c        Options.write_buffer_size: 67108864
+2018/11/19-15:28:54.404274 360c  Options.max_write_buffer_number: 2
+2018/11/19-15:28:54.404303 360c          Options.compression: NoCompression
+2018/11/19-15:28:54.404330 360c                  Options.bottommost_compression: Disabled
+2018/11/19-15:28:54.404358 360c       Options.prefix_extractor: nullptr
+2018/11/19-15:28:54.404385 360c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/11/19-15:28:54.404414 360c             Options.num_levels: 7
+2018/11/19-15:28:54.404440 360c        Options.min_write_buffer_number_to_merge: 1
+2018/11/19-15:28:54.404467 360c     Options.max_write_buffer_number_to_maintain: 0
+2018/11/19-15:28:54.404493 360c            Options.compression_opts.window_bits: -14
+2018/11/19-15:28:54.404520 360c                  Options.compression_opts.level: -1
+2018/11/19-15:28:54.404547 360c               Options.compression_opts.strategy: 0
+2018/11/19-15:28:54.404573 360c         Options.compression_opts.max_dict_bytes: 0
+2018/11/19-15:28:54.404599 360c         Options.compression_opts.zstd_max_train_bytes: 0
+2018/11/19-15:28:54.404625 360c      Options.level0_file_num_compaction_trigger: 4
+2018/11/19-15:28:54.404652 360c          Options.level0_slowdown_writes_trigger: 20
+2018/11/19-15:28:54.404679 360c              Options.level0_stop_writes_trigger: 36
+2018/11/19-15:28:54.404705 360c                   Options.target_file_size_base: 67108864
+2018/11/19-15:28:54.404733 360c             Options.target_file_size_multiplier: 1
+2018/11/19-15:28:54.404761 360c                Options.max_bytes_for_level_base: 268435456
+2018/11/19-15:28:54.404788 360c Options.level_compaction_dynamic_level_bytes: 0
+2018/11/19-15:28:54.404816 360c          Options.max_bytes_for_level_multiplier: 10.000000
+2018/11/19-15:28:54.404849 360c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/11/19-15:28:54.404877 360c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/11/19-15:28:54.404906 360c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/11/19-15:28:54.404933 360c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/11/19-15:28:54.404961 360c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/11/19-15:28:54.404987 360c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/11/19-15:28:54.405014 360c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/11/19-15:28:54.405047 360c       Options.max_sequential_skip_in_iterations: 8
+2018/11/19-15:28:54.405073 360c                    Options.max_compaction_bytes: 1677721600
+2018/11/19-15:28:54.405100 360c                        Options.arena_block_size: 8388608
+2018/11/19-15:28:54.405127 360c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/11/19-15:28:54.405152 360c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/11/19-15:28:54.405176 360c       Options.rate_limit_delay_max_milliseconds: 100
+2018/11/19-15:28:54.405199 360c                Options.disable_auto_compactions: 0
+2018/11/19-15:28:54.405228 360c                        Options.compaction_style: kCompactionStyleLevel
+2018/11/19-15:28:54.405257 360c                          Options.compaction_pri: kByCompensatedSize
+2018/11/19-15:28:54.405284 360c Options.compaction_options_universal.size_ratio: 1
+2018/11/19-15:28:54.405308 360c Options.compaction_options_universal.min_merge_width: 2
+2018/11/19-15:28:54.405334 360c Options.compaction_options_universal.max_merge_width: 4294967295
+2018/11/19-15:28:54.405363 360c Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/11/19-15:28:54.405390 360c Options.compaction_options_universal.compression_size_percent: -1
+2018/11/19-15:28:54.405419 360c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/11/19-15:28:54.405447 360c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/11/19-15:28:54.405485 360c Options.compaction_options_fifo.allow_compaction: 0
+2018/11/19-15:28:54.405519 360c Options.compaction_options_fifo.ttl: 0
+2018/11/19-15:28:54.405547 360c                   Options.table_properties_collectors: 
+2018/11/19-15:28:54.405574 360c                   Options.inplace_update_support: 0
+2018/11/19-15:28:54.405601 360c                 Options.inplace_update_num_locks: 10000
+2018/11/19-15:28:54.405628 360c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/11/19-15:28:54.405659 360c   Options.memtable_huge_page_size: 0
+2018/11/19-15:28:54.405684 360c                           Options.bloom_locality: 0
+2018/11/19-15:28:54.405709 360c                    Options.max_successive_merges: 0
+2018/11/19-15:28:54.405736 360c                Options.optimize_filters_for_hits: 0
+2018/11/19-15:28:54.405762 360c                Options.paranoid_file_checks: 0
+2018/11/19-15:28:54.405788 360c                Options.force_consistency_checks: 0
+2018/11/19-15:28:54.405815 360c                Options.report_bg_io_stats: 0
+2018/11/19-15:28:54.405842 360c                               Options.ttl: 0
+2018/11/19-15:28:54.408844 360c [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:F:\Users\Lenovo\git\myCrawler\crawl\crawldb/MANIFEST-000011 succeeded,manifest_file_number is 11, next_file_number is 13, last_sequence is 5, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2018/11/19-15:28:54.408912 360c [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 10
+2018/11/19-15:28:54.409304 360c EVENT_LOG_v1 {"time_micros": 1542612534409279, "job": 1, "event": "recovery_started", "log_files": [12]}
+2018/11/19-15:28:54.409342 360c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #12 mode 2
+2018/11/19-15:28:54.459656 360c EVENT_LOG_v1 {"time_micros": 1542612534459621, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 13, "file_size": 1770, "table_properties": {"data_size": 834, "index_size": 28, "filter_size": 0, "raw_key_size": 183, "raw_average_key_size": 36, "raw_value_size": 726, "raw_average_value_size": 145, "num_data_blocks": 1, "num_entries": 5, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/11/19-15:28:54.459743 360c [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 14
+2018/11/19-15:28:54.530832 360c EVENT_LOG_v1 {"time_micros": 1542612534530817, "job": 1, "event": "recovery_finished"}
+2018/11/19-15:28:54.571155 360c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 000000001A63D780
+2018/11/19-15:29:07.413194 738 [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2018/11/19-15:29:07.465501 738 [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete
